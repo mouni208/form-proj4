@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body background="tree.jpg">
+    <h1>REGISTRATION FORM</h1>
+    <form>
+        <label for="name">Full name:</lable>
+        <input type="text" name="name" required="">
+        <label for="Email">Your mail</lable>
+        <input type="email" name="Email" required="">
+        <label for="phone">Phonenumber</lable>
+        <input type="tel" name="tel" required="">
+        <label for="Gender">Gender</lable>
+        <select id="gender">
+           <option value="female">Female</option>
+           <option value="male">male</option>
+           <option value="others">others</option>
+        </select>
+        <label for="Zipcode">Zipcode</lable>
+        <input type="text" name="Zipcode" required>
+        <label for="about">About</label>
+        <textarea cols="30" rows="5" name="about"></textarea>
+        <div id="submit">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+</html>
